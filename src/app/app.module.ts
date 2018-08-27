@@ -9,6 +9,7 @@ import { DetailsComponent } from './details/details.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -16,12 +17,13 @@ import { HttpClientModule } from '@angular/common/http';
     PostsComponent,
     UsersComponent,
     DetailsComponent,
-    SidebarComponent
+    SidebarComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
